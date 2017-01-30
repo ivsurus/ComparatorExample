@@ -5,9 +5,9 @@ import java.util.TreeSet;
 /**
  * Created by Ivan_Surus on 1/30/2017.
  */
-public class TreeSetWithComporator {
+public class TreeSetWithComparator {
     public static void main(String[] args) {
-        Comparator<GeometricObject> comporator = new GeometricObjectComporator();
+        Comparator<GeometricObject> comporator = new GeometricObjectComparator();
         Set <GeometricObject> set = new TreeSet<GeometricObject>(comporator);
         set.add(new RectangleGo(4,5));
         set.add(new RectangleGo(1,5));

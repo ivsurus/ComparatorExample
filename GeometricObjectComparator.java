@@ -3,7 +3,7 @@ import java.util.Comparator;
 /**
  * Created by Ivan_Surus on 1/30/2017.
  */
-public class GeometricObjectComporator implements Comparator<GeometricObject>{
+public class GeometricObjectComparator implements Comparator<GeometricObject>{
 
 // сортировка по возрастанию (площадь)
     //чтобы сделать другую сортировку нужно изменть условия в методе compare
