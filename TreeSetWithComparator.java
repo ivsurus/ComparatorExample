@@ -5,6 +5,7 @@ import java.util.TreeSet;
 /**
  * Created by Ivan_Surus on 1/30/2017.
  */
+// просто для коммита
 public class TreeSetWithComparator {
     public static void main(String[] args) {
         Comparator<GeometricObject> comporator = new GeometricObjectComparator();
@@ -16,6 +17,5 @@ public class TreeSetWithComparator {
         for (GeometricObject elements: set) {
             System.out.println("area = " + elements.getArea());
         }
-
     }
 }
